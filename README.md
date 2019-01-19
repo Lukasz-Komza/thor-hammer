@@ -4,7 +4,7 @@ Made by Lukasz Komza at the Bergen County Academies in Hackensack, NJ, USA.
 
 ## Software
 
-A simple arduino script for toggling power to the magnet via a reed switch was used. It can be found in this repository in software/magnet_toggle.ino.
+A simple arduino script for toggling power to the magnet via a reed switch was used. It can be found in this repository in /software/magnet_toggle.ino.
 
 ## CAD
 
@@ -26,8 +26,4 @@ Other hardware, such as threaded standoffs, button-heads, or a black iron pipe w
 
 ### Hardware Guide
 
-The Universal GCode Sender installation guide and download can be found [here](https://winder.github.io/ugs_website/). The version 2.0 nightly build was used. It was used to queue whole GCode files to the Not-a-Farmbot instead of individual commands, which was all that could be done using the serial monitor with GRBLtoArduino.ino
-
-Sungeun K. Jeon's simple_stream.py can be found [here](https://github.com/grbl/grbl/tree/master/doc/script). For this project, simple_stream.py was used, but stream.py can also be implemented. It was also used to queue whole GCode files, but UGS proved to be easier to use.
-
-GRBLtoArduino.ino, along with Sungeun K. Jeon's simple_stream.py, can be found in the software folder in this repository. In order to properly used GRBLtoArduino.ino, you must first install the GRBL Arduino Library, which can be done [here](https://blog.protoneer.co.nz/grbl-arduino-library/). The GRBL library used in Not-a-Farmbot can also be found in the software folder. GRBLtoArduino was used strictly for testing purposes via the serial monitor at 9600 baud.
+The purchased hammer was cut open and used as a skin for the skeleton and electronics. The structure detaield by the CAD was inserted, and foam padding was added for support. Details on electronics and structure, including wiring diagrams and partial assemblies, can be found in /pictures.
