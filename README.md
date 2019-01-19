@@ -4,18 +4,25 @@ Made by Lukasz Komza at the Bergen County Academies in Hackensack, NJ, USA.
 
 ## Software
 
-A simple arduino script for toggling power to the magnet via a reed switch was used. It can be found in this repository under the name "magnet_toggle.ino"
+A simple arduino script for toggling power to the magnet via a reed switch was used. It can be found in this repository in software/magnet_toggle.ino.
+
+## CAD
+
+Fusion 360 was used to create a CAD file for the assembly of critical structural components. It was also used to generate .dxf files for the top and bottom plates of the assembly, which were cut out of steel and aluminum respectively on a waterjet at the Bergen County Academies, courtesy of Joseph DeFalco.
 
 ## Hardware
-The following hardware was used:
+The following essential hardware was used:
 
 ```
+x2 Tenergy NiMH Battery Pack 12V 2000mAh
+YaeTek Lifting Electromagnet 176LB/80kg 65mm 12V
+Aleph DC-1561 W Magnetic Switch
+IRLZ44N HEXFET® Power MOSFET
 Arduino Uno
-gShield v5b
-24V Power Supply
-Carbide 3D Shapeoko (unknown version)
+Rubie's Costume Men's Thor Ragnarok Hammer
 ```
-The Carbide 3D Shapeoko came with the Arduino Uno with a gShield v5b attatched, but the recommended software (Carbide Create/Carbide Motion) was nonfunctional. GRBL was used as an effective alternative.
+
+Other hardware, such as threaded standoffs, button-heads, or a black iron pipe will not be listed, as they can be substituted with any functional structural components.
 
 ### Hardware Guide
 
