@@ -27,3 +27,5 @@ Other hardware, such as threaded standoffs, button-heads, or a black iron pipe w
 ### Hardware Guide
 
 The purchased hammer was cut open and used as a skin for the skeleton and electronics. The structure detaield by the CAD was inserted, and foam padding was added for support. Details on electronics and structure, including wiring diagrams and partial assemblies, can be found in /pictures.
+
+## Electronics Summary
