@@ -28,4 +28,6 @@ Other hardware, such as threaded standoffs, button-heads, or a black iron pipe w
 
 The purchased hammer was cut open and used as a skin for the skeleton and electronics. The structure detaield by the CAD was inserted, and foam padding was added for support. Details on electronics and structure, including wiring diagrams and partial assemblies, can be found in /pictures.
 
-## Electronics Summary
+### Electronics Summary
+
+The hammer was powered by two 12V 2000mAh NiMH batteries in parallel. The 12V was regulated to 5V to power the Arduino Uno via a standard circuit soldered onto a proto-board. The code running on the Arudino Uno (magnet_toggle.ino) powered the magnet via the mosfet when the reed switch was closed, and turned it off when the reed switch was open.
